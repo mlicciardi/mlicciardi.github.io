@@ -12,25 +12,18 @@ sidebar:
     website:
     linkedin: mlicciardi
     github: mlicciardi
-    telegram:
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow:
-    codewars:
-    goodreads:
 
     languages:
       - idiom: English
+        level: Professional
+      - idiom: Italian
         level: Professional
 
     interests:
       - item: Photography
         link:
-
       - item: Snowboarding
         link:
-
       - item: Hiking
         link:
 
