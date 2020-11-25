@@ -1,8 +1,8 @@
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
-baseurl: ''
-description: A beautiful Jekyll theme for creating resume
+title: Mattia Licciardi
+url: 'https://mlicciardi.github.io'
+baseurl: '/'
+description: A beautiful resume powered by Jekyll
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
