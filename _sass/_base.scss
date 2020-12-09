@@ -25,6 +25,7 @@ a {
 }
 
 p {
+    text-align: justify;
     line-height: 1.5;
 }
 
@@ -180,6 +181,7 @@ p {
         overflow: hidden;
         margin-bottom: 2px;
     }
+
     .job-title, .degree {
         color: $text-color;
         font-size: 16px;
@@ -187,12 +189,14 @@ p {
         margin-bottom: 0;
         font-weight: 500;
     }
+
     .time {
         position: absolute;
         right: 0;
         top: 0;
         color: $text-grey;
     }
+
     .company, .university {
         margin-bottom: 10px;
         color: $text-grey;
@@ -205,6 +209,7 @@ p {
         margin-bottom: 5px;
 	color: darken($theme-color, 15%);
     }
+
     .projects-section {
         .intro {
             margin-bottom: 30px;
@@ -235,7 +240,6 @@ p {
     }
 }
 
-
 .skillset {
     .item {
         margin-bottom: 12px;
@@ -262,9 +266,6 @@ p {
         transition: width .25s linear;
     }
 }
-
-
-
 
 .footer {
     padding-top: 30px;
