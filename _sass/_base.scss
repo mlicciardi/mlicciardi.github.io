@@ -48,17 +48,17 @@ p {
         color: #fff;
     }
     .profile-container {
-        padding: 30px;
-        //background: darken($theme-color, 10%);
-        background: rgba(0, 0, 0, 0.2);
+        padding: 28px;
+        background: darken($theme-color, 10%);
+        // background: rgba(0, 0, 0, 0.2);
         text-align: center;
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 900;
         margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
     .tagline {
         color: rgba(256, 256, 256, 0.6);
@@ -73,7 +73,7 @@ p {
 
     .avatar {
         //used for profile image
-        max-width: 100px;
+        max-width: 150px;
         margin-bottom: 15px;
         border: 0px solid #fff;
         border-radius: 100%;
@@ -155,8 +155,8 @@ p {
 
 .main-wrapper {
     background: #fff;
-    padding: 60px;
-    padding-right: 340px;
+    padding: 32px;
+    margin-right: 280px;
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
@@ -238,11 +238,11 @@ p {
 
 .skillset {
     .item {
-        margin-bottom: 15px;
+        margin-bottom: 12px;
         overflow: hidden;
     }
     .level-title {
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 0;
         margin-bottom: 12px;
     }
@@ -251,8 +251,15 @@ p {
         background: $smoky-white;
     }
     .level-bar-inner {
+        width: 0;
         height: 12px;
         background: lighten($theme-color, 15%);
+
+        -webkit-transition: width .25s linear;
+        -moz-transition: width .25s linear;
+        -o-transition: width .25s linear;
+        -ms-transition: width .25s linear;
+        transition: width .25s linear;
     }
 }
 

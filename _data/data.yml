@@ -1,14 +1,12 @@
 sidebar:
-    about: False
     education: True
 
     name: Mattia Licciardi
-    tagline: Full Stack Developer
-    # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Full-stack JavaScript Developer
+    avatar: profile.jpg
 
-    # Sidebar links
     email: mattia.licciardi@gmail.com
-    phone: +39 328 0064641
+    phone:
     website:
     linkedin: mlicciardi
     github: mlicciardi
@@ -35,6 +33,7 @@ career-profile:
       Accomplished full-stack developer focused on complex web-based applications, PWA, and hybrid mobile applications. Long-term experience developing a wide range of solutions, I worked with several technologies in different industries and markets keeping the focus on a great product and end-user experiences within mind cost efficiency and scalability.
 
       I'm often described as a goal-oriented person, highly-skilled team player able to collaborate with other developers, engineers, and software testers to deliver remarkable products within deadlines and budgets.
+
 education:
     - degree: Computer Engineering
       university: Università degli Studi di Padova
@@ -42,6 +41,7 @@ education:
     - degree: Computer Science
       university: ITIS Carlo Zuccante
       time: 2002 - 2007
+
 experiences:
     - role: Principal Senior Full-stack JavaScript Developer
       time: 11.2019 - Present
@@ -87,13 +87,17 @@ projects:
 skills:
     title: Skills &amp; Proficiency
     toolset:
-      - name: TypeScript, Javascript ES6 & jQuery
+      - name: Javascript, HTML & CSS
         level: 95%
       - name: Angular, Ember, React
-        level: 95%
-      - name: HTML5 & CSS3
-        level: 95%
+        level: 80%
+      - name: TypeScript, ES6
+        level: 90%
+      - name: Sass, Less, BEM
+        level: 75%
+      - name: NPM, Yarn, Git
+        level: 80%
       - name: Node.js
-        level: 95%
+        level: 50%
 footer: >
     Made with <i class="fas fa-heart"></i> in Venice
