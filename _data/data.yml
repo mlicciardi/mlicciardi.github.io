@@ -5,11 +5,9 @@ sidebar:
     tagline: Full-stack JavaScript Developer
     avatar: profile.jpg
 
-    email: mattia.licciardi@gmail.com
-    phone:
-    website:
-    linkedin: mlicciardi
     github: mlicciardi
+    linkedin: mlicciardi
+    email: mattia.licciardi@gmail.com
 
     languages:
       - idiom: English
@@ -39,39 +37,50 @@ education:
       university: ITIS Carlo Zuccante
       time: 2002 - 2007
 
-career-profile:
+profile:
     title: Profile
     summary: |
       I'm Mattia! Born in Venice, untiring traveler, lifelong learner, passionate about science, technology, and photography. I enjoy my days' coding, going out in the wild nature to take photos and if snow involved, having fun with my board.
-      Accomplished full-stack developer focused on complex web-based applications, PWA, and hybrid mobile applications. Long-term experience developing a wide range of solutions, I worked with several technologies in different industries and markets.
       I'm often described as a goal-oriented person, highly-skilled team player able to collaborate with other developers and software testers to deliver remarkable products focused on great end-user experience within in mind cost, efficiency, and scalability.
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
     toolset:
       - name: Javascript, HTML & CSS
         level: 95%
-      - name: Angular, Ember, React
-        level: 80%
       - name: TypeScript, ES6
         level: 90%
+      - name: Angular, Ember, React
+        level: 80%
       - name: Sass, Less, BEM
         level: 75%
       - name: NPM, Yarn, Git
         level: 80%
-      - name: Node, Express
-        level: 70%
+      - name: Node, Express, ORM
+        level: 75%
       - name: C#, Asp.Net
-        level: 70%
+        level: 60%
       - name: Python, Ruby on Rails, PHP
-        level: 30%
+        level: 45%
       - name: Mongo, Redis, SQL, T-SQL
         level: 70%
+      - name: Jekyll, WordPress
+        level: 80%
+
+# proficiency:
+#     title: Proficiency
+#     toolset:
+#       - description: Agile practices
+#       - Design, analysing and troubleshooting large-scale distributed systems
+#       - Implement efficient and complex applications with Angular, Ember, React
+#       - Maintain a well-organized codebase of components with strong unit tests
+#       - Think through edge cases and unexpected user interactions to develop a robust UX
 
 experiences:
     - role: Senior Full-stack Developer
-      time: 10.2018 - 10.2019
+      time: 11.2019 - Current
       company: Ten Lifestyle Group Plc, London (UK)
+      link: https://www.tenlifestylegroup.com
       details: |
         - Develop efficient and complex UI with ReactJS and Material Design
         - Write code that works across current versions of all major browsers
@@ -83,12 +92,10 @@ experiences:
         - Optimize existing code to minimize waste of client resources
         - Collaborate with backend engineers to implement backend requirements for new features
     - role: Senior Full-stack Developer
-      time: 10.2018 - 10.2019
-      company: Plandek Ltd, London (UK)
+      time: 10.2019 - 10.2020
+      company: Artirix Ltd, London (UK)
+      link: https://www.linkedin.com/company/artirix/about
       details: |
-        Development and keeping activities for the key product of the company: a web platform that allows generating insight from the big data sitting within the most used software delivery systems and increase the accuracy of delivery forecasting.
-
-        Key responsibilities and duties:
         - Develop efficient and complex UI with ReactJS and Material Design
         - Write code that works across current versions of all major browsers
         - Maintain code with ES6 and TypeScript
@@ -100,7 +107,8 @@ experiences:
         - Collaborate with backend engineers to implement backend requirements for new features
     - role: Senior Full-stack Developer
       time: 10.2017 - 10.2019
-      company: Artirix Ltd, London (UK)
+      company: Plandek Ltd, London (UK)
+      link: https://www.linkedin.com/company/plandek/about
       details: |
         Development and keeping activities for the key product of the company: a web platform that allows generating insight from the big data sitting within the most used software delivery systems and increase the accuracy of delivery forecasting.
 
@@ -117,6 +125,7 @@ experiences:
     - role: Senior Full-stack Developer
       time: 03.2017 - 09.2017
       company: Nexttech Srl, Venice (Italy)
+      link: https://www.linkedin.com/company/nexttech-srl/about
       details: |
         Development and keeping activities for the core product of the company: forSales, Operational CRM and Order Entry, an innovative solution for the management of the business on the move.
 
@@ -125,9 +134,10 @@ experiences:
         - Back-end development on LAMP Stack with PHP Slim Framework - Front-end mobile development on jQuery, HTML, CSS, SQL Lite
         - Back-end SAP integration with Delphi ETL
         - Implement and maintenance version control SVN
-    - role: CTO
+    - role: Founder and CTO
       time: 06.2014 - 06.2017
       company: Digital Rockers Srl, Padova (Italy)
+      link: https://www.linkedin.com/company/digital-rockers-s-r-l-/about
       details: |
         Digital Rockers is an interactive agency that I've co-founded, which designs and develops B2B digital solutions, mainly for the education, processes optimization, and sales force automation. At Digital Rockers as CTO, I oversee all phases of project development, from analysis to actual development, maintenance, and deployment. Digital Rockers has a strong user-centered approach and I help the UX designer with the user researches definition and execution and UI design.
 
@@ -142,6 +152,7 @@ experiences:
     - role: Full-stack Developer
       time: 11.2012 - 11.2014
       company: TeamSystem Spa, Padova (Italy)
+      link: https://www.linkedin.com/company/teamsystem/about
       details: |
         Development and keeping activities for the software product, including application core development, interface implementation, and user assistance. At the same time, I'm involved in process consolidation praxis together with documentation drawing up.
 
@@ -154,6 +165,7 @@ experiences:
     - role: Full-stack Developer
       time: 02.2009 - 02.2012
       company: C.B. Sistemi, Venezia (Italy)
+      link: https://www.linkedin.com/company/cbsistemi/about
       details: |
         Development and keeping activities for the health care automation ERP in the Health Care Industry, including application core development, interface implementation and user assistance. At the same time, I'm involved in process consolidation praxis together with documentation drawing up.
 
@@ -166,7 +178,9 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Accomplished full-stack developer focused on complex web-based applications, PWA, and hybrid mobile applications.
+      Long-term experience developing a wide range of solutions, I worked with several technologies in different industries and markets.
+      Here's a quick overview of the projects that I've contributed and the tech stack used:
     assignments:
       - title: Velocity
         link: "#hook"
