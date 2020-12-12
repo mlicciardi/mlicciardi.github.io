@@ -52,13 +52,14 @@ skills:
         level: 90%
       - name: Angular, Ember, React
         level: 80%
+      - name: Material, Bootstrap
       - name: Sass, Less, BEM
         level: 75%
       - name: NPM, Yarn, Git
         level: 80%
       - name: Node, Express, ORM
         level: 75%
-      - name: C#, Asp.Net
+      - name: C#, Asp.Net, LINQ
         level: 60%
       - name: Python, Ruby on Rails, PHP
         level: 45%
@@ -67,14 +68,14 @@ skills:
       - name: Jekyll, WordPress
         level: 80%
 
-# proficiency:
-#     title: Proficiency
-#     toolset:
-#       - description: Agile practices
-#       - Design, analysing and troubleshooting large-scale distributed systems
-#       - Implement efficient and complex applications with Angular, Ember, React
-#       - Maintain a well-organized codebase of components with strong unit tests
-#       - Think through edge cases and unexpected user interactions to develop a robust UX
+proficiency:
+    title: Proficiency
+    toolset:
+      - description: Agile practices
+      - Design, analysing and troubleshooting large-scale distributed systems
+      - Implement efficient and complex applications with Angular, Ember, React
+      - Maintain a well-organized codebase of components with strong unit tests
+      - Think through edge cases and unexpected user interactions to develop a robust UX
 
 experiences:
     - role: Senior Full-stack Developer
@@ -182,21 +183,83 @@ projects:
       Long-term experience developing a wide range of solutions, I worked with several technologies in different industries and markets.
       Here's a quick overview of the projects that I've contributed and the tech stack used:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Smemorato
+        link: https://apps.apple.com/it/app/smemorato/id1054651526
+        nda: false
+        tagline: Just another ToDo app, delivered with low budget and short deadlines
+        toolset:
+          - name: Ionic Framework
+          - name: Angular
+          - name: Node
+          - name: Express
+          - name: Loopback.io
+          - name: MySQL
+          - name: SQL Lite
+      - title: TeamSystem CRM in Cloud
+        link: https://www.teamsystem.com/store/gestione-relazione-clienti/crm-in-cloud/
+        nda: false
+        tagline: CRM for small businesses, SaaS version of Tustena CRM Enterprise
+        toolset:
+          - name: Angular
+          - name: Bootstrap
+          - name: C#
+          - name: LINQ
+          - name: Asp.Net
+          - name: SQL
+          - name: T-SQL
+      - title: Tustena CRM Enterprise
+        link: https://www.datalution.it/SOLUZIONI/TUSTENA-CRM
+        nda: false
+        tagline: CRM that integrates marketing, communication, management, and workflow processes
+        toolset:
+          - name: Angular
+          - name: Bootstrap
+          - name: C#
+          - name: LINQ
+          - name: Asp.Net
+          - name: SQL
+          - name: T-SQL
+      - title: Gioel Spa
+        link: https://gioel.com
+        nda: false
+        tagline: Corporate website
+        toolset:
+          - name: Wordpress
+      - title: MyGioel CRM
+        link:
+        nda: true
+        tagline: Custom CRM to automate Gioel's salesforce workflow
+        toolset:
+          - name: Angular
+          - name: Bootstrap
+          - name: Node
+          - name: Express
+          - name: Loopback
+          - name: MySQL
+      - title: MyGioel App
+        link:
+        nda: true
+        tagline: iOS app that consume MyGioel CRM Rest API
+        toolset:
+          - name: Ionic Framework
+          - name: Angular
+          - name: Node
+          - name: Express
+          - name: Loopback
+          - name: MySQL
+          - name: SQL Lite
+      - title: Conve.io
+        link: http://conve.io
+        nda: false
+        tagline: Founded in 2010, Conve.io is a StartUp that allows the aggregation of the user's content, such as blogs, social profile(s), reviewed sites, and online newspapers, creating a single point of contact between companies and customers.
+        toolset:
+          - name: Angular
+          - name: Bootstrap
+          - name: Node
+          - name: Express
+          - name: Loopback
+          - name: MySQL
+          - name: Facebook and Twitter API Integration
 
 footer: >
     Made with <i class="fas fa-heart"></i> in Venice
