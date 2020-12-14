@@ -53,8 +53,9 @@ skills:
       - name: Angular, Ember, React
         level: 80%
       - name: Material, Bootstrap
+        level: 85%
       - name: Sass, Less, BEM
-        level: 75%
+        level: 80%
       - name: NPM, Yarn, Git
         level: 80%
       - name: Node, Express, ORM
@@ -181,505 +182,563 @@ projects:
     assignments:
       - title: Ten Lifestyle Concierge
         link: https://www.tenlifestylegroup.com
-        start-year: 2019
-        end-year: 2020
+        start: 2019
+        end: 2020
         active: true
         private: true
         category: Enterprise
-        tagline: Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
-        techstack:
-          - name: Angular
-          - name: RxJS
-          - name: ECMAScript6 (ES6)
-          - name: Typescript
-          - name: Javascript
-          - name: Material Design
-          - name: HTML/CSS
-          - name: Python
-          - name: PostgressSQL
+        tagline: |
+          Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
+
+          Techstack:
+            - Angular
+            - RxJS
+            - ECMAScript6 (ES6)
+            - Typescript
+            - Javascript
+            - Material Design
+            - HTML/CSS
+            - Python
+            - PostgressSQL
       - title: Plandek
         link: https://plandek.com
-        start-year: 2017
-        end-year: 2019
+        start: 2017
+        end: 2019
         active: true
         private: true
         category: Startup
-        tagline: Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
-        techstack:
-          - name: React
-          - name: RxJS
-          - name: ECMAScript6 (ES6)
-          - name: Typescript
-          - name: Material Design
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: GraphQL
-          - name: Python
-          - name: PostgressSQL
+        tagline: |
+          Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
+
+          Techstack:
+            - React
+            - RxJS
+            - ECMAScript6 (ES6)
+            - Typescript
+            - Material Design
+            - HTML/CSS
+            - Node
+            - Express
+            - GraphQL
+            - Python
+            - PostgressSQL
       - title: Plandek Alpha
         link: https://plandek.com
-        start-year: 2017
-        end-year: 2019
+        start: 2017
+        end: 2019
         active: true
         private: true
         category: Startup
-        tagline: Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
-        techstack:
-          - name: Ember
-          - name: ECMAScript6 (ES6)
-          - name: Javascript
-          - name: Material Design
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: GraphQL
-          - name: Python
-          - name: PostgressSQL
+        tagline: |
+          Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
+
+          Techstack:
+            - Ember
+            - ECMAScript6 (ES6)
+            - Javascript
+            - Material Design
+            - HTML/CSS
+            - Node
+            - Express
+            - GraphQL
+            - Python
+            - PostgressSQL
       - title: ForSales Operational CRM
         link: https://forsales.it
-        start-year: 2016
-        end-year: 2017
+        start: 2016
+        end: 2017
         active: true
         private: true
         category: Enterprise
-        tagline: CRM for sales force workflow automation
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: PHP
-          - name: MySQL
-          - name: Delphi ETL
+        tagline: |
+          CRM for sales force workflow automation
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - PHP
+            - MySQL
+            - Delphi ETL
       - title: ForSales App
         link: https://forsales.it/site/en/solution
-        start-year: 2016
-        end-year: 2017
+        start: 2016
+        end: 2017
         active: true
         private: true
         category: Enterprise
-        tagline: iOS app of ForSales Operational CRM
-        techstack:
-          - name: React
-          - name: RxJS
-          - name: ECMAScript6 (ES6)
-          - name: Typescript
-          - name: HTML/CSS
-          - name: SQL Lite
+        tagline: |
+          iOS app of ForSales Operational CRM
+
+          Techstack:
+            - React
+            - RxJS
+            - ECMAScript6 (ES6)
+            - Typescript
+            - HTML/CSS
+            - SQL Lite
       - title: Tustena CRM Enterprise
         link: https://www.datalution.it/SOLUZIONI/TUSTENA-CRM
-        start-year: 2015
-        end-year: 2017
+        start: 2015
+        end: 2017
         active: true
         private: true
         category: Enterprise
-        tagline: CRM for small businesses, whitelabel version of TeamSystem CRM in Cloud
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: C#
-          - name: LINQ
-          - name: Asp.Net
-          - name: SQL
-          - name: T-SQL
+        tagline: |
+          CRM for small businesses, whitelabel version of TeamSystem CRM in Cloud
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - C#
+            - LINQ
+            - Asp.Net
+            - SQL
+            - T-SQL
       - title: TeamSystem CRM in Cloud
         link: https://www.teamsystem.com/store/gestione-relazione-clienti/crm-in-cloud/
-        start-year: 2015
-        end-year: 2017
+        start: 2015
+        end: 2017
         active: true
         private: true
         category: Enterprise
-        tagline: CRM that integrates marketing, communication, management, and workflow processes
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: C#
-          - name: LINQ
-          - name: Asp.Net
-          - name: SQL
-          - name: T-SQL
+        tagline: |
+          CRM that integrates marketing, communication, management, and workflow processes
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - C#
+            - LINQ
+            - Asp.Net
+            - SQL
+            - T-SQL
       - title: TeamSystem Enterprise Cloud
         link: https://www.teamsystem.com/teamsystem-enterprise-cloud
-        start-year: 2015
-        end-year: 2017
+        start: 2015
+        end: 2017
         active: true
         private: true
         category: Enterprise
-        tagline: ERP that automate workflow acros Administratio, Finance, and Legal departments
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: C#
-          - name: LINQ
-          - name: Asp.Net
-          - name: SQL
-          - name: T-SQL
+        tagline: |
+          ERP that automate workflow acros Administratio, Finance, and Legal departments
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - C#
+            - LINQ
+            - Asp.Net
+            - SQL
+            - T-SQL
       - title: MyGioel CRM
         link:
-        start-year: 2014
-        end-year: 2015
+        start: 2014
+        end: 2015
         active: true
         private: true
         category: Enterprise
-        tagline: Custom CRM to automate Gioel's salesforce workflow
-        techstack:
-          - name: Angular
-          - name: HTML/CSS
-          - name: Bootstrap
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
+        tagline: |
+          Custom CRM to automate Gioel's salesforce workflow
+
+          Techstack:
+            - Angular
+            - HTML/CSS
+            - Bootstrap
+            - Node
+            - Express
+            - Loopback
+            - MySQL
       - title: MyGioel App
         link:
-        start-year: 2014
-        end-year: 2015
+        start: 2014
+        end: 2015
         active: true
         private: true
         category: Enterprise
-        tagline: iOS app that consume MyGioel CRM Rest API
-        techstack:
-          - name: Angular
-          - name: Ionic Framework
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: SQL Lite
+        tagline: |
+          iOS app that consume MyGioel CRM Rest API
+
+          Techstack:
+            - Angular
+            - Ionic Framework
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - SQL Lite
       - title: Gioel Spa
         link: https://gioel.com
-        start-year: 2014
-        end-year: 2015
+        start: 2014
+        end: 2015
         active: true
         private: true
         category: Enterprise
-        tagline: Corporate website
-        techstack:
-          - name: Wordpress
-          - name: jQuery
-          - name: HTML
-          - name: CSS
-          - name: PHP
-          - name: MySQL
-          - name: Facebook and Twitter API Integration
+        tagline: |
+          Corporate website
+
+          Techstack:
+            - Wordpress
+            - jQuery
+            - HTML
+            - CSS
+            - PHP
+            - MySQL
+            - Facebook and Twitter API Integration
       - title: Ragioniamo con i Piedi
         link: https://www.ragioniamoconipiedi.it
-        start-year: 2014
-        end-year:
+        start: 2014
+        end:
         active: true
         private: false
         category: Enterprise
-        tagline: E-commerce for hand-made shoe firm
-        techstack:
-          - name: WooCommerce
-          - name: jQuery
-          - name: HTML/CSS
-          - name: PHP
-          - name: MySQL
-          - name: PayPal API Integration
-          - name: Ayden3DS API Integration
-          - name: Facebook and Twitter API Integration
+        tagline: |
+          E-commerce for hand-made shoe firm
+
+          Techstack:
+            - WooCommerce
+            - jQuery
+            - HTML/CSS
+            - PHP
+            - MySQL
+            - PayPal API Integration
+            - Ayden3DS API Integration
+            - Facebook and Twitter API Integration
       - title: TeleGestisco
         link: http://www.telegestisco.it/web
-        start-year: 2014
-        end-year:
+        start: 2014
+        end:
         active: true
         private: true
         category: Enterprise
-        tagline: IOT Dashboard for monitoring thew health surveillance systems. Performs planned checks and report the hardware status and let the user to have instant wanrning about failures
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: Redis
-          - name: C++
-          - name: C#,
-          - name: VB6,
-          - name: Bosh SDK
-          - name: Dahua SDK
-          - name: Samsung SDK
-          - name: Hikvision SDK
+        tagline: |
+          IOT Dashboard for monitoring thew health surveillance systems. Performs planned checks and report the hardware status and let the user to have instant wanrning about failures
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - Redis
+            - C++
+            - C#,
+            - VB6,
+            - Bosh SDK
+            - Dahua SDK
+            - Samsung SDK
+            - Hikvision SDK
       - title: RiVedo
         link: http://www.rivedo.eu
-        start-year: 2014
-        end-year:
+        start: 2014
+        end:
         active: true
         private: true
         category: Enterprise
-        tagline: IOT Dashboard for camera surveillance systems
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: Redis
-          - name: C++
-          - name: C#,
-          - name: VB6,
-          - name: Bosh SDK
-          - name: Dahua SDK
-          - name: Samsung SDK
-          - name: Hikvision SDK
+        tagline: |
+          IOT Dashboard for camera surveillance systems
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - Redis
+            - C++
+            - C#,
+            - VB6,
+            - Bosh SDK
+            - Dahua SDK
+            - Samsung SDK
+            - Hikvision SDK
       - title: FRED App
         link: https://apps.apple.com/it/app/superfred/id1097324461
-        start-year: 2013
-        end-year: 2016
+        start: 2013
+        end: 2016
         active: false
         private: false
         category: StartUp
-        tagline: Mobile app for FRED, Books and People around us
-        techstack:
-          - name: Angular
-          - name: Ionic Framework
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: MongoDB
-          - name: SQL Lite
+        tagline: |
+          Mobile app for FRED, Books and People around us
+
+          Techstack:
+            - Angular
+            - Ionic Framework
+            - HTML/CSS
+            - Node
+            - Express
+            - MongoDB
+            - SQL Lite
       - title: FRED, Books and People around us
         link: https://www.facebook.com/superfred.it
-        start-year: 2013
-        end-year: 2016
+        start: 2013
+        end: 2016
         active: false
         private: false
         category: StartUp
-        tagline: Founded in 2014, FRED is a StartUp born on top a large community of book lovers. The product is a proximity-oriented, social, and networking platform for book sharing
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: MongoDB
+        tagline: |
+          Founded in 2014, FRED is a StartUp born on top a large community of book lovers. The product is a proximity-oriented, social, and networking platform for book sharing
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - MongoDB
       - title: Kenwood Club
         link: https://www.kenwoodclub.it
-        start-year: 2013
-        end-year: 2014
+        start: 2013
+        end: 2014
         active: true
         private: false
         category: Enterprise
-        tagline: Web platform to market Kenwood products and to improve the Kenwood customer user experience teaching and inspire the customer to get the most from their Kenwood products
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
+        tagline: |
+          Web platform to market Kenwood products and to improve the Kenwood customer user experience teaching and inspire the customer to get the most from their Kenwood products
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
       - title: WishDays for Emozione3
         link: http://www.wishdays.it
-        start-year: 2013
-        end-year: 2014
+        start: 2013
+        end: 2014
         active: false
         private: false
         category: Enterprise
-        tagline: Web platform to market shorts breaks and optimize the booking flow of the packages Emozione3
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: PayPal API Integration
-          - name: Ayden3DS API Integration
-          - name: Facebook and Twitter API Integration
+        tagline: |
+          Web platform to market shorts breaks and optimize the booking flow of the packages Emozione3
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - PayPal API Integration
+            - Ayden3DS API Integration
+            - Facebook and Twitter API Integration
       - title: Conve.io
         link: http://conve.io
-        start-year: 2013
-        end-year: 2014
+        start: 2013
+        end: 2014
         active: false
         private: true
         category: StartUp
-        tagline: Founded in 2010, Conve.io is a StartUp that allows the aggregation of the user's content, such as blogs, social profile(s), reviewed sites, and online newspapers, creating a single point of contact between companies and customers.
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: Facebook and Twitter API Integration
+        tagline: |
+          Founded in 2010, Conve.io is a StartUp that allows the aggregation of the user's content, such as blogs, social profile(s), reviewed sites, and online newspapers, creating a single point of contact between companies and customers.
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - Facebook and Twitter API Integration
       - title: Shamat
         link: https://www.linkedin.com/company/shamat/about
-        start-year: 2013
-        end-year: 2014
+        start: 2013
+        end: 2014
         active: false
         private: true
         category: StartUp
-        tagline: Founded in 2012, Conve.io is a StartUp that helps marketers monitor their digital marketing performance and spy on their competitors.
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: Facebook and Twitter API Integration
+        tagline: |
+          Founded in 2012, Conve.io is a StartUp that helps marketers monitor their digital marketing performance and spy on their competitors.
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - Facebook and Twitter API Integration
       - title: Smemorato
         link: https://apps.apple.com/it/app/smemorato/id1054651526
-        start-year: 2013
-        end-year:
+        start: 2013
+        end:
         active: true
         private: false
         category: StartUp
-        tagline: Just another ToDo app, delivered with low budget and short deadlines
-        techstack:
-          - name: Angular
-          - name: Ionic Framework
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback.io
-          - name: MySQL
-          - name: SQL Lite
+        tagline: |
+          Just another ToDo app, delivered with low budget and short deadlines
+
+          Techstack:
+            - Angular
+            - Ionic Framework
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback.io
+            - MySQL
+            - SQL Lite
       - title: Kademy App
         link: https://fip.kademy.it
-        start-year: 2012
-        end-year: Today
+        start: 2012
+        end: Today
         active: true
         private: true
         category: StartUp
-        tagline: Mobile app for on-site training tracking
-        techstack:
-          - name: Angular
-          - name: Ionic Framework
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: MongoDB
-          - name: SQL Lite
+        tagline: |
+          Mobile app for on-site training tracking
+
+          Techstack:
+            - Angular
+            - Ionic Framework
+            - HTML/CSS
+            - Node
+            - Express
+            - MongoDB
+            - SQL Lite
       - title: Kademy
         link: https://fip.kademy.it
-        start-year: 2012
-        end-year: Today
+        start: 2012
+        end: Today
         active: true
         private: false
         category: StartUp
-        tagline: E-learning management system
-        techstack:
-          - name: Angular
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: MongoDB
-          - name: PayPal API Integration
-          - name: Ayden3DS API Integration
-          - name: Facebook and Twitter API Integration
+        tagline: |
+          E-learning management system
+
+          Techstack:
+            - Angular
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - MongoDB
+            - PayPal API Integration
+            - Ayden3DS API Integration
+            - Facebook and Twitter API Integration
       - title: miOrganizzo Mobile
         link: http://www.miorganizzo.com/miorganizzo-mobile.html
-        start-year: 2009
-        end-year: 2012
+        start: 2009
+        end: 2012
         active: true
         private: false
         category: Enterprise
-        tagline: Mobile app for expenses data entry in miOrganizzo ERP
-        techstack:
-          - name: jQuery
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: SQL Lite
+        tagline: |
+          Mobile app for expenses data entry in miOrganizzo ERP
+
+          Techstack:
+            - jQuery
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - SQL Lite
       - title: miOrganizzo
         link: http://www.miorganizzo.com
-        start-year: 2009
-        end-year: 2012
+        start: 2009
+        end: 2012
         active: true
         private: false
         category: Enterprise
-        tagline: ERP for workflow automation of the small businesses processes related to invoicing and expenses
-        techstack:
-          - name: jQuery
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
+        tagline: |
+          ERP for workflow automation of the small businesses processes related to invoicing and expenses
+
+          Techstack:
+            - jQuery
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
       - title: Uniants
         link: https://www.facebook.com/uniants
-        start-year: 2008
-        end-year: 2012
+        start: 2008
+        end: 2012
         active: false
         private: false
         category: StartUp
-        tagline: Back in 2008 with two college mates, inspired by Facebook, we created a platform to replace Moodle, the learning platform used on most of the Universities in Italy. Well our project died but let us to have hands on real code and deploy to the real world our project, from scratch.
-        techstack:
-          - name: jQuery
-          - name: Bootstrap
-          - name: HTML/CSS
-          - name: Node
-          - name: Express
-          - name: Loopback
-          - name: MySQL
-          - name: Neo4j
+        tagline: |
+          Back in 2008 with two college mates, inspired by Facebook, we created a platform to replace Moodle, the learning platform used on most of the Universities in Italy. Well our project died but let us to have hands on real code and deploy to the real world our project, from scratch.
+
+          Techstack:
+            - jQuery
+            - Bootstrap
+            - HTML/CSS
+            - Node
+            - Express
+            - Loopback
+            - MySQL
+            - Neo4j
       - title: CUP Laboratorio Analisi Cliniche
         link: https://www.cbsistemi.it/soluzioni/studiolab/laboratorio-analisi-cliniche
-        start-year: 2007
-        end-year: 2009
+        start: 2007
+        end: 2009
         active: true
         private: true
         category: Enterprise
-        tagline: ERP for the private healthcare sector to automate clinical analysis administration anf financial workflows. Schedule analysis requests, medical reports, and invoicing
-        techstack:
-          - name: jQuery
-          - name: HTML/CSS
-          - name: C#
-          - name: LINQ
-          - name: Asp.Net
-          - name: SQL
-          - name: T-SQL
+        tagline: |
+          ERP for the private healthcare sector to automate clinical analysis administration anf financial workflows. Schedule analysis requests, medical reports, and invoicing
+
+          Techstack:
+            - jQuery
+            - HTML/CSS
+            - C#
+            - LINQ
+            - Asp.Net
+            - SQL
+            - T-SQL
       - title: CUP Poliambulatorio
         link: https://www.cbsistemi.it/soluzioni/studiolab/poliambulatorio
-        start-year: 2007
-        end-year: 2009
+        start: 2007
+        end: 2009
         active: true
         private: true
         category: Enterprise
-        tagline: ERP for the private healthcare sector to automate radiology's information systems and generate medical reports
-        techstack:
-          - name: jQuery
-          - name: HTML/CSS
-          - name: C#
-          - name: LINQ
-          - name: Asp.Net
-          - name: SQL
-          - name: T-SQL
+        tagline: |
+          ERP for the private healthcare sector to automate radiology's information systems and generate medical reports
+
+          Techstack:
+            - jQuery
+            - HTML/CSS
+            - C#
+            - LINQ
+            - Asp.Net
+            - SQL
+            - T-SQL
       - title: StudioLAB
         link: https://www.cbsistemi.it/soluzioni/studiolab
-        start-year: 2007
-        end-year: 2009
+        start: 2007
+        end: 2009
         active: true
         private: true
         category: Enterprise
-        tagline: ERP for the private healthcare sector to automate clinical analysis laboratory's workflow integrating the analysis machine and generate medical reports
-        techstack:
-          - name: jQuery
-          - name: HTML/CSS
-          - name: C#
-          - name: LINQ
-          - name: Asp.Net
-          - name: SQL
-          - name: T-SQL
+        tagline: |
+          ERP for the private healthcare sector to automate clinical analysis laboratory's workflow integrating the analysis machine and generate medical reports
+
+          Techstack:
+            - jQuery
+            - HTML/CSS
+            - C#
+            - LINQ
+            - Asp.Net
+            - SQL
+            - T-SQL
 
 footer: >
     Made with <i class="fas fa-heart"></i> in Venice

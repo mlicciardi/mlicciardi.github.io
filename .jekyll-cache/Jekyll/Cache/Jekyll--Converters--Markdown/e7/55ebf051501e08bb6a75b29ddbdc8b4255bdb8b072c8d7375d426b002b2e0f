@@ -1,0 +1,21 @@
+I"ð<p>IOT Dashboard for monitoring thew health surveillance systems. Performs planned checks and report the hardware status and let the user to have instant wanrning about failures</p>
+
+<p>Techstack:</p>
+<ul>
+  <li>Angular</li>
+  <li>Bootstrap</li>
+  <li>HTML/CSS</li>
+  <li>Node</li>
+  <li>Express</li>
+  <li>Loopback</li>
+  <li>MySQL</li>
+  <li>Redis</li>
+  <li>C++</li>
+  <li>C#,</li>
+  <li>VB6,</li>
+  <li>Bosh SDK</li>
+  <li>Dahua SDK</li>
+  <li>Samsung SDK</li>
+  <li>Hikvision SDK</li>
+</ul>
+:ET

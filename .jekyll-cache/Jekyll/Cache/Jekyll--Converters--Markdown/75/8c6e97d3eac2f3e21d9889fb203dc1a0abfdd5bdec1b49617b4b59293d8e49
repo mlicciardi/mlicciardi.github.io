@@ -1,0 +1,14 @@
+I"Ò<p>Back in 2008 with two college mates, inspired by Facebook, we created a platform to replace Moodle, the learning platform used on most of the Universities in Italy. Well our project died but let us to have hands on real code and deploy to the real world our project, from scratch.</p>
+
+<p>Techstack:</p>
+<ul>
+  <li>jQuery</li>
+  <li>Bootstrap</li>
+  <li>HTML/CSS</li>
+  <li>Node</li>
+  <li>Express</li>
+  <li>Loopback</li>
+  <li>MySQL</li>
+  <li>Neo4j</li>
+</ul>
+:ET

@@ -13,19 +13,32 @@
       <p>{{ projects.intro }}</p>
   </div>
   {% endif %}
+</section>
+<section class="section experiences-section">
   {% for project in projects.assignments %}
-    <div class="item">
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">
+          {% if project.link %}
+          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+          {% else %}
+            {{ project.title }}
+          {% endif %}
+        </h3>
+        <div class="time">
+          {% if project.start %}{{ project.start }}{% endif %}
+          {% if project.end %}&nbsp;-&nbsp;{% endif %}
+          {% if project.end %}{{ project.end }}{% endif %}
+        </div>
+      </div>
     </div>
+    {% if project.tagline %}
+    <div class="details">
+      {{ project.tagline | markdownify }}
+    </div>
+    {% endif %}
+  </div>
   {% endfor %}
 </section>
 {% endif %}
