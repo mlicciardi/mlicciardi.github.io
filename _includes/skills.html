@@ -8,6 +8,12 @@
     </span>
     {{ skills.title }}
   </h2>
+  {% if skills.summary %}
+  <div class="summary">
+    {{ skills.summary | markdownify }}
+  </div>
+  {% endif %}
+  {% if skills.skillset %}
   <div class="skillset">
     {% for skill in skills.skillset %}
     <div class="item">
@@ -18,5 +24,6 @@
     </div>
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 {% endif %}
