@@ -1,7 +1,7 @@
 # Site Settings
 title: Mattia Licciardi
 url: 'https://mlicciardi.github.io'
-baseurl: ''
+baseurl: '/'
 description: A beautiful resume powered by Jekyll
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
