@@ -5,10 +5,18 @@ sidebar:
     tagline: Full-stack JavaScript Developer
     avatar: profile.jpg
 
-    website: mlicciardi.github.io
+    website: http://mlicciardi.github.io
     github: mlicciardi
     linkedin: mlicciardi
     email: mattia.licciardi@gmail.com
+
+    education:
+        - degree: Computer Engineering
+          university: Università degli Studi di Padova
+          time: 2007 - 2012
+        - degree: Computer Science
+          university: ITIS Carlo Zuccante
+          time: 2002 - 2007
 
     languages:
       - idiom: English
@@ -29,14 +37,6 @@ sidebar:
         link:
       - item: Travel
         link:
-
-education:
-    - degree: Computer Engineering
-      university: Università degli Studi di Padova
-      time: 2007 - 2012
-    - degree: Computer Science
-      university: ITIS Carlo Zuccante
-      time: 2002 - 2007
 
 profile:
     title: Profile
