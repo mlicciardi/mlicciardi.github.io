@@ -8,8 +8,10 @@
     </span>
     {{ profile.title }}
   </h2>
+  {% if profile.summary %}
   <div class="summary">
-    {{ profile.summary | markdownify }}
+    <p>{{ profile.summary | markdownify }}</p>
   </div>
+  {% endif %}
 </section>
 {% endif %}

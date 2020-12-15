@@ -165,111 +165,104 @@ p {
     background: #fff;
     padding: 32px;
     margin-right: 280px;
-    .section-title {
-        text-transform: uppercase;
-        font-size: 20px;
-        font-weight: 500;
-        color: darken($theme-color, 15%);
-        position: relative;
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
+
     .section {
         margin-bottom: 60px;
+
+        .section-title {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 500;
+            color: darken($theme-color, 15%);
+            position: relative;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
     }
 
-    .projects-section, .experiences-section, .educations-section {
-        .intro,
+    .skills-section,
+    .experiences-section,
+    .projects-section {
+        .summary,
         .item {
             margin-bottom: 30px;
         }
     }
 
-    .upper-row {
-        position: relative;
-        overflow: hidden;
-        margin-bottom: 2px;
-    }
+    .skills-section {
+        .skillset {
+            .item {
+                overflow: hidden;
+                margin-bottom: 12px;
 
-    .job-title, .degree {
-        color: $text-color;
-        font-size: 16px;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-weight: 500;
-    }
+                .level-title {
+                    font-size: 13px;
+                    margin: 0;
+                }
 
-    .project-title {
-        color: $text-color;
-        font-size: 16px;
-        margin-top: 0;
-        margin-bottom: 15px;
-        font-weight: 500;
-    }
+                .level-bar {
+                    height: 12px;
+                    background: $smoky-white;
+                }
 
-    .time {
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: $text-grey;
-    }
+                .level-bar-inner {
+                    width: 0;
+                    height: 12px;
+                    background: lighten($theme-color, 15%);
 
-    .company, .university {
-        margin-bottom: 10px;
-        color: $text-grey;
-    }
-    .project-title {
-        font-size: 16px;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 5px;
-        color: darken($theme-color, 15%);
-    }
-    .publication-title {
-        font-size: 16px;
-        font-weight: 400;
-        color: $text-color;
-        margin-bottom: 1px;
-    }
-    .publication-authors {
-        font-style: italic;
-        color: $text-grey;
-        margin-bottom: 1px;
-    }
-    .publications-section {
-        .intro {
-            margin-bottom: 30px;
+                    -webkit-transition: width .25s linear;
+                    -moz-transition: width .25s linear;
+                    -o-transition: width .25s linear;
+                    -ms-transition: width .25s linear;
+                    transition: width .25s linear;
+                }
+            }
         }
+    }
+
+    .experiences-section,
+    .projects-section {
         .item {
-            margin-bottom: 15px;
+            margin-bottom: 30px;
+
+            .upper-row {
+                position: relative;
+                overflow: hidden;
+                margin-bottom: 2px;
+
+            }
+
+            .lower-row {
+                margin-top: 0;
+                margin-bottom: 15px;
+                color: $text-grey;
+                font-size: 14px;
+                font-weight: 500;
+
+                a {
+                    color: $text-grey;
+                }
+                a:hover {
+                    color: darken($text-grey, 15%);
+                    text-decoration: underline;
+                }
+            }
+
+            .item-title {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 0;
+                margin-bottom: 5px;
+                color: darken($theme-color, 15%);
+            }
+
+            .time {
+                position: absolute;
+                right: 0;
+                top: 0;
+                color: $text-grey;
+            }
         }
-    }
-}
-
-.skillset {
-    .item {
-        margin-bottom: 12px;
-        overflow: hidden;
-    }
-    .level-title {
-        font-size: 13px;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: $smoky-white;
-    }
-    .level-bar-inner {
-        width: 0;
-        height: 12px;
-        background: lighten($theme-color, 15%);
-
-        -webkit-transition: width .25s linear;
-        -moz-transition: width .25s linear;
-        -o-transition: width .25s linear;
-        -ms-transition: width .25s linear;
-        transition: width .25s linear;
     }
 }
 

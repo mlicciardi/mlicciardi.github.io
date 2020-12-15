@@ -47,6 +47,9 @@ profile:
 skills:
     title: Skills
     summary: |
+      Accomplished full-stack developer focused on complex web-based applications, PWA, and hybrid mobile applications mostly based on Javascript frameworks.
+      Across my experience I built strong knowledge on the following methodologies, workflows and technologies:
+
       - Tech lead and Extreme Programming (EX)
       - TDD/BDD test strategies
       - UI/UX design and co-design methodologies
@@ -84,42 +87,40 @@ skills:
         level: 60%
       - name: Jekyll, WordPress
         level: 80%
-      - name: JIRA, Office365, GSuite
+      - name: JIRA, Confluence
         level: 90%
 
 experiences:
-    - role: Senior Full-stack Developer
-      time: 11.2019 - Current
-      company: Ten Lifestyle Group Plc, London (UK)
-      link: https://www.tenlifestylegroup.com
-    - role: Senior Full-stack Developer
-      time: 10.2019 - 10.2020
-      company: Artirix Ltd, London (UK)
-      link: https://www.linkedin.com/company/artirix/about
-    - role: Senior Full-stack Developer
-      time: 10.2017 - 10.2019
-      company: Plandek Ltd, London (UK)
-      link: https://www.linkedin.com/company/plandek/about
-    - role: Founder and CTO
-      time: 06.2012 - 06.2017
-      company: Digital Rockers Srl, Padova (Italy)
-      link: https://www.linkedin.com/company/digital-rockers-s-r-l-/about
-    - role: Full-stack Developer
-      time: 11.2009 - 11.2012
-      company: TeamSystem Spa, Padova (Italy)
-      link: https://www.linkedin.com/company/teamsystem/about
-    - role: Full-stack Developer
-      time: 02.2007 - 02.2009
-      company: C.B. Sistemi, Venezia (Italy)
-      link: https://www.linkedin.com/company/cbsistemi/about
+    title: Experiences
+    summary:
+    experience-list:
+      - role: Principal Senior Full-stack Developer
+        time: 11.2019 - Current
+        company: Ten Lifestyle Group Plc, London (UK)
+        link: https://www.tenlifestylegroup.com
+      - role: Senior Full-stack Developer
+        time: 10.2017 - 10.2019
+        company: Plandek Ltd, London (UK)
+        link: https://www.linkedin.com/company/plandek/about
+      - role: Founder and CTO
+        time: 06.2012 - 06.2017
+        company: Digital Rockers Srl, Padova (Italy)
+        link: https://www.linkedin.com/company/digital-rockers-s-r-l-/about
+      - role: Full-stack Developer
+        time: 11.2009 - 11.2012
+        company: TeamSystem Spa, Padova (Italy)
+        link: https://www.linkedin.com/company/teamsystem/about
+      - role: Full-stack Developer
+        time: 02.2007 - 02.2009
+        company: C.B. Sistemi, Venezia (Italy)
+        link: https://www.linkedin.com/company/cbsistemi/about
 
 projects:
     title: Projects
-    intro: >
-      Accomplished full-stack developer focused on complex web-based applications, PWA, and hybrid mobile applications.
+    summary: |
       Long-term experience developing a wide range of solutions, I worked with several technologies in different industries and markets.
       Here's a quick overview of the projects that I've contributed and the tech stack used:
-    assignments:
+    project-list:
       - title: Ten Lifestyle Concierge
         link: https://www.tenlifestylegroup.com
         start: 2019
@@ -280,7 +281,7 @@ projects:
         private: true
         category: Enterprise
         tagline: |
-          Corporate website
+          Corporate website of Gioel Spa
 
           Techstack:
             - Wordpress

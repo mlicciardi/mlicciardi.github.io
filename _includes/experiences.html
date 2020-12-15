@@ -6,16 +6,21 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    Experiences
+    {{ experiences.title }}
   </h2>
-  {% for experience in experiences %}
+  {% if experiences.summary %}
+  <div class="summary">
+    <p>{{ experiences.summary | markdownify }}</p>
+  </div>
+  {% endif %}
+  {% for experience in experiences.experience-list %}
   <div class="item">
     <div class="meta">
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+        <h3 class="item-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
       </div>
-      <div class="company">
+      <div class="lower-row">
         {% if experience.link %}
         <a href="{{ experience.link }}" target="_blank">{{ experience.company }}</a>
         {% else %}
