@@ -45,15 +45,15 @@ profile:
       I'm often described as a goal-oriented person, highly-skilled team player able to collaborate with other developers and software testers to deliver remarkable products focused on great end-user experience within in mind cost, efficiency, and scalability.
 
 toolset:
-    title: Proficiency
+    title: FLOW
     summary: |
-      - UI/UX design, co-design methodologies
-      - Test Drive Development (TDD), Extreme Programming (EX)
+      - Tech lead and Extreme Programming (EX)
+      - TDD/BDD test strategies
+      - UI/UX design and co-design methodologies
       - Analysing and troubleshooting large-scale distributed systems
       - Implement efficient and complex applications with Angular, Ember, React
       - Maintain a well-organized codebase of components with strong unit tests
       - Think through edge cases and unexpected user interactions to develop a robust UX
-      - Tech lead and code review
       - Agile ans SCRUM methodologies
 
 skills:
