@@ -29,6 +29,13 @@ p {
     line-height: 1.5;
 }
 
+.no-print {
+    display: inline-block;
+}
+.no-screen {
+    display: none;
+}
+
 .wrapper {
     background:$theme-color;
     max-width: 1000px;
@@ -267,7 +274,9 @@ p {
 }
 
 .footer {
+    display: inherit;
     padding-top: 30px;
+
     .copyright {
         line-height: 1.6;
         color: $text-color-secondary;

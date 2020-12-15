@@ -1,20 +1,30 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
+    {% if sidebar.website %}
+    <li class="website no-screen">
+      <i class="fas fa-globe-americas"></i>
+      <span class="no-screen">{{ sidebar.website }}</span>
+    </li>
+    {% endif %}
     {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    <li class="github">
+      <i class="fab fa-github"></i>
+      <span class="no-screen">{{ sidebar.github }}</span>
+      <a class="no-print" href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
-
     {% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    <li class="linkedin">
+      <i class="fab fa-linkedin"></i>
+      <span class="no-screen">{{ sidebar.linkedin }}</span>
+      <a class="no-print" href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
     </li>
     {% endif %}
-
     {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    <li class="email">
+      <i class="fas fa-envelope"></i>
+      <span class="no-screen">{{ sidebar.email }}</span>
+      <a class="no-print" href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
     {% endif %}
   </ul>
