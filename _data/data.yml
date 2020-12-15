@@ -80,10 +80,13 @@ skills:
       - name: Python, Ruby on Rails, PHP
         level: 45%
       - name: Mongo, Redis, SQL, T-SQL
-        level: 70%
-      - name: Jekyll, WordPress
-      - name: GitFlow, AWS, Azure
+        level: 75%
+      - name: Kubernetes, Docker
         level: 60%
+      - name: AWS, Azure
+        level: 60%
+      - name: Jekyll, WordPress
+        level: 80%
       - name: JIRA, Office365, GSuite
         level: 90%
 
