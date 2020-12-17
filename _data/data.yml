@@ -59,18 +59,22 @@ skills:
       - Think through edge cases and unexpected user interactions to develop a robust UX
       - Agile ans SCRUM methodologies
     skillset:
-      - name: Javascript, HTML & CSS
-        level: 95%
-      - name: Angular, Ember, React
-        level: 80%
-      - name: TypeScript, ES6, RxJS
+      - name: Javascript, ECMAScript
         level: 90%
+      - name: Typescript
+        level: 90%
+      - name: Angular, Ember, React
+        level: 85%
+      - name: Redux, RxJS
+        level: 85%
       - name: Mocha, Jasmine, Karma
         level: 80%
       - name: Charts.js, D3.js
         level: 70%
+      - name: HTML/HTML5, CSS/CSS3
+        level: 95%
       - name: Material, Bootstrap
-        level: 85%
+        level: 80%
       - name: Sass, Less, BEM
         level: 80%
       - name: NPM, Yarn, Git
@@ -134,7 +138,7 @@ projects:
           Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
 
           Techstack:
-            - Angular, RxJS, Typescript, ECMAScript9 (ES9)
+            - Angular, RxJS, Typescript, ECMAScript (ES9)
             - HTML/CSS, Material Design
             - Python
             - PostgressSQL
@@ -149,7 +153,7 @@ projects:
           Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
 
           Techstack:
-            - React, RxJS, Typescript, ECMAScript8 (ES8), Charts.js
+            - React, RxJS, Typescript, ECMAScript (ES8), Charts.js
             - HTML/CSS, Material Design
             - Node, Express, GraphQL
             - Python
@@ -165,7 +169,7 @@ projects:
           Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
 
           Techstack:
-            - Ember, Javascript, ECMAScript8 (ES8), D3.js
+            - Ember, Javascript, ECMAScript (ES8), D3.js
             - HTML/CSS, Material Design
             - Node, Express, GraphQL
             - Python
@@ -181,7 +185,7 @@ projects:
           CRM for sales force workflow automation
 
           Techstack:
-            - Angular, Javascript, ECMAScript6 (ES6), D3.js
+            - Angular, Javascript, ECMAScript (ES6), D3.js
             - HTML/CSS, Bootstrap
             - PHP
             - MySQL
@@ -197,7 +201,7 @@ projects:
           iOS app of ForSales Operational CRM
 
           Techstack:
-            - React, RxJS, Typescript, ECMAScript6 (ES6), D3.js
+            - React, RxJS, Typescript, ECMAScript (ES6), D3.js
             - HTML/CSS
             - SQL Lite
       - title: Tustena CRM Enterprise
@@ -211,7 +215,7 @@ projects:
           CRM for small businesses, whitelabel version of TeamSystem CRM in Cloud
 
           Techstack:
-            - Angular, Javascript, ECMAScript6 (ES6), Charts.js
+            - Angular, Javascript, ECMAScript (ES6), Charts.js
             - HTML/CSS, Bootstrap
             - C#, Asp.Net, LINQ
             - SQL, T-SQL
@@ -226,7 +230,7 @@ projects:
           CRM that integrates marketing, communication, management, and workflow processes
 
           Techstack:
-            - Angular, Javascript, ECMAScript6 (ES6), Charts.js
+            - Angular, Javascript, ECMAScript (ES6), Charts.js
             - HTML/CSS, Bootstrap
             - C#, Asp.Net, LINQ
             - SQL, T-SQL
@@ -241,7 +245,7 @@ projects:
           ERP that automate workflow acros Administratio, Finance, and Legal departments
 
           Techstack:
-            - Angular, Javascript, ECMAScript6 (ES6), Charts.js
+            - Angular, Javascript, ECMAScript (ES6), Charts.js
             - HTML/CSS, Bootstrap
             - C#, Asp.Net, LINQ
             - SQL, T-SQL
@@ -271,7 +275,7 @@ projects:
           iOS app that consume MyGioel CRM Rest API
 
           Techstack:
-            - Ionic Framework, Angular, Typescript, ECMAScript6 (ES6)
+            - Ionic Framework, Angular, Typescript, ECMAScript (ES6)
             - HTML/CSS
             - Node, Express, Loopback.io
             - MySQL, SQL Lite
@@ -356,7 +360,7 @@ projects:
           Just another ToDo app, delivered with low budget and short deadlines
 
           Techstack:
-            - Ionic Framework, Angular, Typescript, ECMAScript6 (ES6)
+            - Ionic Framework, Angular, Typescript, ECMAScript (ES6)
             - HTML/CSS
             - Node, Express, Loopback.io
             - MySQL, SQL Lite
@@ -372,7 +376,7 @@ projects:
 
           Techstack:
           Techstack:
-            - Ionic Framework, Angular, Typescript, ECMAScript6 (ES6)
+            - Ionic Framework, Angular, Typescript, ECMAScript (ES6)
             - HTML/CSS
             - Node, Express
             - MongoDB, SQL Lite
@@ -469,7 +473,7 @@ projects:
           Mobile app for on-site training tracking
 
           Techstack:
-            - Ionic Framework, Angular, Typescript, ECMAScript6 (ES6)
+            - Ionic Framework, Angular, Typescript, ECMAScript (ES6)
             - HTML/CSS
             - Node, Express
             - MongoDB, SQL Lite
