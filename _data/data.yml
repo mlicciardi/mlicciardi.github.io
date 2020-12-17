@@ -61,12 +61,14 @@ skills:
     skillset:
       - name: Javascript, HTML & CSS
         level: 95%
-      - name: TypeScript, ES6, RxJS
-        level: 90%
       - name: Angular, Ember, React
         level: 80%
+      - name: TypeScript, ES6, RxJS
+        level: 90%
       - name: Mocha, Jasmine, Karma
         level: 80%
+      - name: Charts.js, D3.js
+        level: 70%
       - name: Material, Bootstrap
         level: 85%
       - name: Sass, Less, BEM
@@ -139,7 +141,7 @@ projects:
       - title: Plandek
         link: https://plandek.com
         start: 2017
-        end: 2019
+        end: 2018
         active: true
         private: true
         category: Startup
@@ -147,14 +149,14 @@ projects:
           Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
 
           Techstack:
-            - React, RxJS, Typescript, ECMAScript8 (ES8)
+            - React, RxJS, Typescript, ECMAScript8 (ES8), Charts.js
             - HTML/CSS, Material Design
             - Node, Express, GraphQL
             - Python
             - PostgressSQL
       - title: Plandek Alpha
         link: https://plandek.com
-        start: 2017
+        start: 2018
         end: 2019
         active: true
         private: true
@@ -163,7 +165,7 @@ projects:
           Agile and delivery metrics BI platform that provide an end-to-end view of software delivery cycle
 
           Techstack:
-            - Ember, Javascript, ECMAScript8 (ES8)
+            - Ember, Javascript, ECMAScript8 (ES8), D3.js
             - HTML/CSS, Material Design
             - Node, Express, GraphQL
             - Python
@@ -179,7 +181,7 @@ projects:
           CRM for sales force workflow automation
 
           Techstack:
-            - Angular, Javascript, ECMAScript6 (ES6)
+            - Angular, Javascript, ECMAScript6 (ES6), D3.js
             - HTML/CSS, Bootstrap
             - PHP
             - MySQL
@@ -195,7 +197,7 @@ projects:
           iOS app of ForSales Operational CRM
 
           Techstack:
-            - React, RxJS, Typescript, ECMAScript6 (ES6)
+            - React, RxJS, Typescript, ECMAScript6 (ES6), D3.js
             - HTML/CSS
             - SQL Lite
       - title: Tustena CRM Enterprise
@@ -209,7 +211,7 @@ projects:
           CRM for small businesses, whitelabel version of TeamSystem CRM in Cloud
 
           Techstack:
-            - Angular, Javascript, ECMAScript6 (ES6)
+            - Angular, Javascript, ECMAScript6 (ES6), Charts.js
             - HTML/CSS, Bootstrap
             - C#, Asp.Net, LINQ
             - SQL, T-SQL
@@ -224,7 +226,7 @@ projects:
           CRM that integrates marketing, communication, management, and workflow processes
 
           Techstack:
-            - Angular, Javascript, ECMAScript6 (ES6)
+            - Angular, Javascript, ECMAScript6 (ES6), Charts.js
             - HTML/CSS, Bootstrap
             - C#, Asp.Net, LINQ
             - SQL, T-SQL
@@ -239,7 +241,7 @@ projects:
           ERP that automate workflow acros Administratio, Finance, and Legal departments
 
           Techstack:
-            - Angular, Javascript
+            - Angular, Javascript, ECMAScript6 (ES6), Charts.js
             - HTML/CSS, Bootstrap
             - C#, Asp.Net, LINQ
             - SQL, T-SQL
